@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- 训练 / 诊断产物（大文件已归档到 E 盘压缩包）----
+runs/
+logs/
+train/
+pretrain/
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+*.npz
+*.npy
+*.pdf
+*.log
+
+# ---- 压缩包 ----
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
